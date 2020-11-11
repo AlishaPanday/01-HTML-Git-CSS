@@ -41,7 +41,7 @@ THEN I find a concise, descriptive title
 
 The following image shows the web application's appearance and functionality:
 
-![code refactor demo](Demo_assets/01-html-css-git-homework-demo.png)
+![Horiseon demo](Demo_assets/01-html-css-git-homework-demo.png)
 
 ## Technical Acceptance Criteria:
 
