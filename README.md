@@ -8,9 +8,15 @@ This week's homework involves a very important aspect of web development: **acce
 Take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework,refactor an existing site to make it more accessible.
 
 ## Instalation 
+<!--Links-->
+ Deployment URL
+ <br  />
+ https://github.com/AlishaPanday/01-HTML-Git-CSS
+ <br  />
+ GitHub URL
+ <br  />
+ https://alishapanday.github.io/01-HTML-Git-CSS/
 
- Deployment URL link goes here 
- GitHub URL goes here
 
 ## User Story
 
@@ -42,6 +48,7 @@ THEN I find a concise, descriptive title
 The following image shows the web application's appearance and functionality:
 
 ![Horiseon demo](Demo_assets/01-html-css-git-homework-demo.png)
+
 
 ## Technical Acceptance Criteria:
 
