@@ -8,7 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
-/*header*/
+
+/* This is header*/
 
 .header {
     padding: 20px;
@@ -17,14 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* This is h1 header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/*This is a navbar*/
 
 .header div {
     padding-top: 15px;
@@ -42,17 +47,23 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
+/*This is a link properties for Search engine,online reputation & social media marketign*/
+.link-SEO{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link-ORM{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link-SSM{
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
-.hero {
+/* This is a background image properties */
+.figure1{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,24 +71,90 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*This is a main content properties*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* This sets properties for section - search-engine-optimisation*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This sets properties for seach engine section image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* This sets search engine image float left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+ /* This sets properties for search engine section heading*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This sets properties for search engine section paragraph*/
+.search-engine-optimization p {
+    font-size: 16px;
+}
+/* This sets properties for section- online reputation management*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This sets properties for section- online reputation management image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* This sets properties for section- online reputation management image right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* This sets properties for section- online reputation management heading*/
+.online-reputation-management h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This sets properties for section- online reputation management paragraph*/
+.online-reputation-management p{
+    font-size: 16px;
+}
+/* This sets properties for Section - Social Media Marketing*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This sets properties for Section - Social Media Marketing image*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* This sets properties for Section - Social Media Marketing heading*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This sets properties for Section - Social Media Marketing paragraph*/
+.social-media-marketing p{
+    font-size: 16px;
+}
+/* This sets properties for benefits aside*/
+.benefits{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,115 +164,68 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*This set properties for lead aside*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/*This set properties for lead aside heading*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/*This set properties for lead aside image*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*This set properties for lead aside paragraph*/
+.benefit-lead p{
+    font-size: 16px;
+}
 
+/*This set properties for brand aside*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This set properties for brand aside heading*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*This set properties for brand aside image*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*This set properties for brand aside paragraph*/
+.benefit-brand p{
+    font-size: 16px;
+}
+/*This set properties for cost aside*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This set properties for cost aside heading*/
+.benefit-cost h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*This set properties for cost aside image*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/*This set properties for cost aside paragraph*/
+.benefit-cost p{
+    font-size: 16px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
 
 
